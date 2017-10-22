@@ -1,20 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< Updated upstream
-  <head>
-    <title>CollaborEat</title>
-    <meta charset="utf-8">
-    <link href="../css/style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
-  <body>
-  <div class="navbar">
-    		<div><img src="../img/collab.png" id="logo"></div>
-    		<a href="" class="navbarr"><div>find</div></a>
-    		<a href="" class="navbarr"><div>chat</div></a>
-    		<a href="" class="navbarr"><div>party!</div></a>
-        <a href="../index.html" class="navbarr"><div>home</div></a>
-=======
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,14 +7,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
-  <script 
+  <script> 
    var db = new Dexie("registration");
    db.version(1).stores({   
    "user": "email"     
  })
 
  db.users.add({email: document.getElementById("InputEmail"), password: document.getElementById("InputSenha")})
-
+</script>
 </head>
 <body>
   <div class="page-header">
@@ -70,26 +55,5 @@
               <button class="btn btn-lg btn-danger btn-block" onclick="realizarCadastro()" type="button">Register</button>
       </form>
     </div>
-    <div class="col-md-4"></div>
->>>>>>> Stashed changes
-  </div>
-  <form action="/action_page.php">
- <div class="container">
-   <label><b>Full Name</b></label><br>
-   <input type="text" placeholder="Enter Name" name="name" required><br>
-
-   <label><b>Email</b></label><br>
-   <input type="text" placeholder="Enter Email" name="email" required><br>
-
-   <label><b>Username</b></label><br>
-   <input type="text" placeholder="Enter Username" name="uname" required><br>
-
-   <label><b>Password</b></label><br>
-   <input type="password" placeholder="Enter Password" name="psw" required><br>
-
-   <button type="submit">Log in</button><br>
-   <a href="../login/index.html" class="doit">Already registered? Log in here!</a> <br>
- </div>
-</form>
 </body>
 </html>
