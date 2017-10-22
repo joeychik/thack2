@@ -7,7 +7,7 @@ function toRegister () {
   var login = document.getElementById ("InputLogin").value;
   var password = document.getElementById ("InputEmail").value;
 
-  var registerCon = new registerController ();
+  var registerCon = new registerController();
 
   registerCon.saveUser (
     name,
@@ -20,6 +20,7 @@ function toRegister () {
         location.href = "./index.html";
       } else {
         alert ("Error! Registration could not be completed.")
+      }  
     });
 
 }
