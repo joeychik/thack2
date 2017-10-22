@@ -27,14 +27,14 @@ a.heeby  {
     display: none;
   }
   .navbarpretty  {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns:6 repeat(4, 1fr);
   }
 }
 
 a.navbarr  {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: white;
+  color: black;
   font-style: italic;
   padding-top: 11px;
   padding-left: 4px;
