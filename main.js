@@ -1,5 +1,5 @@
 const {app, BrowserWindow} = require("electron")
-const mysql = require(“mysql”)
+const mysql = require("mysql")
 const url = require("url")
 const path = require("path")
 

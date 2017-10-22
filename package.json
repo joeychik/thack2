@@ -1,7 +1,7 @@
 {
 	"name": "CollaborEat",
 	"version": "0.0.1",
-	"main": "/js/main.js",
+	"main": "main.js",
 	"scripts": {
 		"start": "electron ."
 	},
@@ -9,6 +9,6 @@
 	"license": "CC0-1.0",
 	"devDependencies": {
 		"electron": "1.7.9",
-		"mysql": "*"
+		"mysql": "^2.15.0"
 	}
 }
