@@ -6,7 +6,8 @@
 		"start": "electron ."
 	},
 	"repository": "https://github.com/joeychik/thack2",
-	"license": "CC0-1.0",
+	"license": "JJAS",
+	"homepage": "http://collaboreat.tech",
 	"devDependencies": {
 		"electron": "1.7.9",
 		"mysql": "^2.15.0"
