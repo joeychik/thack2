@@ -4,7 +4,7 @@
 
 .navbar  {
   display: grid;
-  grid-template-columns: 4fr repeat(4, 1fr);
+  grid-template-columns: 4fr repeat(5, 1fr);
   background: white;
   color: black;
   position: fixed;
@@ -25,13 +25,13 @@ a.heeby  {
   letter-spacing: 3px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .navbarr {
     display: none;
   }
 }
 
-a.login  {
+.login  {
   background-color: #FF6961;
   border-radius: 10px;
   border: 2px solid;
