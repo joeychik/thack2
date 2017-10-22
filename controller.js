@@ -7,15 +7,15 @@ function toRegister () {
   var login = document.getElementById ("InputLogin").value;
   car password = document.getElementById ("InputEmail").value;
 
-  var registerCon = new registerController();
+  var registerCon = new registerController ();
 
-  registerCon.saveUser(
+  registerCon.saveUser (
     name,
     email,
     login,
     password,
-    function (result){
-      if (result === true){
+    function (result) {
+      if (result === true) {
         alert ("Successful registration!");
         location.href = "./index.html";
       } else {
