@@ -1,10 +1,7 @@
-*  {
-  color: red;
-}
 
 .navbar  {
   display: grid;
-  grid-template-columns: 8fr repeat(4, 1fr);
+  grid-template-columns: 6fr repeat(4, 1fr);
   background: white;
   color: black;
   position: fixed;
