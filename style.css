@@ -30,6 +30,14 @@ a.heeby  {
     display: none;
   }
 
+#login  {
+  background-color: #FF6961;
+  border-radius: 10px;
+  border: 2px solid;
+  color: white;
+  padding: 4px;
+}
+
 a.navbarr  {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -40,12 +48,4 @@ a.navbarr  {
   padding-right: 4px;
   font-size: 24px;
   border-left: 3px solid white;
-}
-
-#login  {
-  background-color: #FF6961;
-  border-radius: 10px;
-  border: 2px solid;
-  color: white;
-  padding: 4px;
 }
