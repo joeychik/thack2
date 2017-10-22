@@ -4,18 +4,13 @@
 
 .navbar  {
   display: grid;
-  grid-template-columns: 4fr repeat(5, 1fr);
+  grid-template-columns: 4fr repeat(4, 1fr);
   background: white;
   color: black;
   position: fixed;
   width: 100%;
   z-index: 1000;
   border-bottom: 2px #F0F0F0 solid;
-}
-
-a.heeby  {
-  text-decoration: none;
-  color: white;
 }
 
 #logo  {
@@ -37,6 +32,7 @@ a.heeby  {
   border-radius: 10px;
   border: 2px solid;
   color: white;
+  margin-right: 4px;
 }
 
 a.navbarr1  {
@@ -61,4 +57,8 @@ a.navbarr  {
   padding-right: 4px;
   font-size: 24px;
   border-left: 3px solid white;
+}
+
+#red {
+  width: 30%;
 }
