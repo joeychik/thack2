@@ -5,7 +5,7 @@ function toRegister () {
   var name = document.getElementById ("InputName").value;
   var email = document.getElementById ("InputEmail").value;
   var login = document.getElementById ("InputLogin").value;
-  car password = document.getElementById ("InputEmail").value;
+  var password = document.getElementById ("InputEmail").value;
 
   var registerCon = new registerController ();
 
