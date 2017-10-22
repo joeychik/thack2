@@ -1,6 +1,6 @@
-*  {
+/*  {
   border:1px red solid;
-}
+}*/
 
 .navbar  {
   display: grid;
@@ -37,6 +37,7 @@ a.heeby  {
   border: 2px solid;
   color: white;
   padding: 4px;
+  padding-top: 8px;
 }
 
 a.navbarr  {
@@ -49,4 +50,9 @@ a.navbarr  {
   padding-right: 4px;
   font-size: 24px;
   border-left: 3px solid white;
+}
+
+.bigimg  {
+  width: 99%;
+  margin: auto;
 }
