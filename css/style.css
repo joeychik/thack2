@@ -10,6 +10,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
+  border-bottom: 2px #F0F0F0 solid;
 }
 
 a.heeby  {
@@ -52,7 +53,8 @@ a.navbarr  {
   border-left: 3px solid white;
 }
 
-.bigimg  {
-  width: 99%;
-  margin: auto;
+img  {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
 }
