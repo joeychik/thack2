@@ -64,7 +64,7 @@ a.navbarr  {
   border-right: 2px solid #F0F0F0;
 }
 
-#red {
+.red {
   width: 35%;
   margin: auto;
   display: block;
@@ -145,4 +145,10 @@ span.psw {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin: auto;
+}
+
+.trash  {
+  width: 35%;
+  margin: auto;
+  display: block;
 }
