@@ -32,7 +32,7 @@
   border-radius: 10px;
   border: 2px solid;
   color: white;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 a.navbarr1  {
@@ -61,4 +61,6 @@ a.navbarr  {
 
 #red {
   width: 30%;
+  margin: auto;
+  display: block;
 }
