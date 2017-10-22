@@ -1,5 +1,5 @@
 *  {
-  border-color: : red;
+  border:1px red solid;
 }
 
 .navbar  {
@@ -30,7 +30,7 @@ a.heeby  {
     display: none;
   }
 
-#login  {
+a.login  {
   background-color: #FF6961;
   border-radius: 10px;
   border: 2px solid;
