@@ -17,7 +17,7 @@ a.heeby  {
 #logo  {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 900;
   padding: 5px;
   letter-spacing: 2px;
 }
@@ -27,7 +27,7 @@ a.heeby  {
     display: none;
   }
   .navbarpretty  {
-    grid-template-columns:6 repeat(4, 1fr);
+    grid-template-columns:4 repeat(4, 1fr);
   }
 }
 
