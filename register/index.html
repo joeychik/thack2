@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< Updated upstream
+<head>
   <head>
     <title>CollaborEat</title>
     <meta charset="utf-8">
@@ -13,65 +13,7 @@
     		<a href="" class="navbarr"><div>find</div></a>
     		<a href="" class="navbarr"><div>chat</div></a>
     		<a href="" class="navbarr"><div>party!</div></a>
-        <a href="../index.html" class="navbarr"><div>home</div></a>
-=======
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
-  <script 
-   var db = new Dexie("registration");
-   db.version(1).stores({   
-   "user": "email"     
- })
-
- db.users.add({email: document.getElementById("InputEmail"), password: document.getElementById("InputSenha")})
-
-</head>
-<body>
-  <div class="page-header">
-    <h1>CollaborEat</h1>
-  </div>
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <form role="form" action="" method="post" >
-              <div class="form-group">
-                  <label for="InputName">Full Name</label>
-                  <div class="input-group">
-                      <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Full Name" required>
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                  </div>
-              </div>
-              <div class="form-group">
-                  <label for="InputEmail">Email</label>
-                  <div class="input-group">
-                      <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required  >
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                  </div>
-              </div>
-              <div class="form-group">
-                  <label for="InputLogin">Username</label>
-                  <div class="input-group">
-                      <input type="text" class="form-control" id="InputLogin" name="InputLogin" placeholder="Username" required  >
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                  </div>
-              </div>
-              <div class="form-group">
-                  <label for="InputSenha">Password</label>
-                  <div class="input-group">
-                      <input type="password" class="form-control" id="InputSenha" name="InputSenha" placeholder="Password" required  >
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                  </div>
-              </div>
-              <button class="btn btn-lg btn-danger btn-block" onclick="realizarCadastro()" type="button">Register</button>
-      </form>
-    </div>
-    <div class="col-md-4"></div>
->>>>>>> Stashed changes
+        <div></div>
   </div>
   <form action="/action_page.php">
  <div class="container">
@@ -88,7 +30,8 @@
    <input type="password" placeholder="Enter Password" name="psw" required><br>
 
    <button type="submit">Log in</button><br>
-   <a href="../login/index.html" class="doit">Already registered? Log in here!</a> <br>
+   <a href="/register/index.html" class="doit">Need an account? Register here!</a> <br>
+   <input type="checkbox" checked="checked"> Remember me
  </div>
 </form>
 </body>
