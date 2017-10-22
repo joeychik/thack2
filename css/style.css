@@ -79,11 +79,13 @@ a.navbarr  {
 form {
     border: 3px solid #f0f0f0;
     border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
     padding-top: 82px;
 }
 
 input[type=text], input[type=password] {
     width: 100%;
+    font-family: "Montserrat", sans-serif;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -96,6 +98,7 @@ button {
     background-color: #FF6961;
     color: white;
     padding: 14px 20px;
+    font-family: "Montserrat", sans-serif;
     margin: 8px 0;
     border: none;
     border-radius: 10px;
@@ -109,6 +112,14 @@ button:hover {
 
 .container {
     padding: 16px;
+}
+
+a.doit  {
+  color: #696969;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 span.psw {
