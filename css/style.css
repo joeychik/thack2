@@ -10,7 +10,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  border-bottom: 3px #D3D3D3 solid;
+  border-bottom: 3px #DCDCDC solid;
 }
 
 #logo  {
@@ -34,6 +34,8 @@
   border-radius: 10px;
   border: 2px solid;
   color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
   margin-right: 14px;
   text-align: center;
 }
