@@ -61,7 +61,12 @@ a.navbarr  {
 
 #red {
   width: 30%;
-  margin: 50px auto;
+  margin: auto;
   display: block;
+  padding-top: 80px;
+}
 
+.motto  {
+  text-align: center;
+  margin: auto;
 }
