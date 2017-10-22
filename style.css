@@ -1,3 +1,6 @@
+*  {
+  border-color: : red;
+}
 
 .navbar  {
   display: grid;
@@ -18,8 +21,8 @@ a.heeby  {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 900;
-  padding: 5px;
-  letter-spacing: 2px;
+  padding: 8px;
+  letter-spacing: 3px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
