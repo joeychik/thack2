@@ -25,14 +25,10 @@ a.heeby  {
   letter-spacing: 3px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  #logo {
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .navbarr {
     display: none;
   }
-  .navbarpretty  {
-    grid-template-columns: 4 repeat(4, 1fr);
-  }
-}
 
 a.navbarr  {
   font-family: 'Montserrat', sans-serif;
@@ -44,4 +40,12 @@ a.navbarr  {
   padding-right: 4px;
   font-size: 24px;
   border-left: 3px solid white;
+}
+
+#login  {
+  background-color: #FF6961;
+  border-radius: 10px;
+  border: 2px solid;
+  color: white;
+  padding: 4px;
 }
