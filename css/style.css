@@ -14,11 +14,13 @@
 }
 
 #logo  {
-  font-family: "Montserrat", sans-serif;
+  display: block;
+  width: 400px;
+/*  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 900;
   padding: 8px;
-  letter-spacing: 3px;
+  letter-spacing: 3px;*/
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
