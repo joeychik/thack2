@@ -120,6 +120,7 @@ a.doit  {
   border: none;
   cursor: pointer;
   width: 100%;
+  font-size: 10px;
 }
 
 span.psw {
