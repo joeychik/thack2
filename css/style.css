@@ -135,4 +135,14 @@ span.psw {
 
 .catch  {
   padding-top: 82px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+}
+
+.pazz  {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: auto;
 }
