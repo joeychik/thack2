@@ -1,0 +1,7 @@
+{
+  "name": "collaboreat",
+  "description": "eat food with friends",
+  "app": {
+    "script": "js/chat.js"
+  }
+}
