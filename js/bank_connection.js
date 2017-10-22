@@ -5,7 +5,7 @@ function bankConnection () {
   this.connection = mysql.createConnection ({
     host: "localhost",
     user: "root",
-    password: "pass",
+    password: null,
     database: "loginData",
   });
 
