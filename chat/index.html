@@ -41,6 +41,7 @@
   window.onload = function() {
     //Forward click events to the root FreeDOM module
     document.getElementById('click').onclick = function() {
+      console.log(window.freedom);
       window.freedom.emit('click', 1);
     }
     //Display numbers from the root FreeDOM module
