@@ -1,13 +1,14 @@
 {
 	"name": "CollaborEat",
 	"version": "0.0.1",
-	"main": "main.js",
+	"main": "/js/main.js",
 	"scripts": {
 		"start": "electron ."
 	},
 	"repository": "https://github.com/joeychik/thack2",
 	"license": "CC0-1.0",
 	"devDependencies": {
-		"electron": "1.7.9"
+		"electron": "1.7.9",
+		"mysql": "*"
 	}
 }
