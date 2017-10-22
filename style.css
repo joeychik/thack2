@@ -33,6 +33,7 @@
   border: 2px solid;
   color: white;
   margin-right: 10px;
+  text-align: center;
 }
 
 a.navbarr1  {
@@ -61,7 +62,12 @@ a.navbarr  {
 
 #red {
   width: 30%;
-  margin: 50px auto;
+  margin: auto;
   display: block;
+  padding-top: 80px;
+}
 
+.motto  {
+  text-align: center;
+  margin: auto;
 }
