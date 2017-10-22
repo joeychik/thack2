@@ -10,7 +10,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  border-bottom: 1px #F0F0F0 solid;
+  border-bottom: 2px #F0F0F0 solid;
 }
 
 a.heeby  {
@@ -55,6 +55,6 @@ a.navbarr  {
 
 .bigimg  {
   display: block;
-  width: 99%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
 }
