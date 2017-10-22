@@ -1,7 +1,7 @@
 
 .navbar  {
   display: grid;
-  grid-template-columns: 6fr repeat(4, 1fr);
+  grid-template-columns: 4fr repeat(4, 1fr);
   background: white;
   color: black;
   position: fixed;
@@ -16,7 +16,7 @@ a.heeby  {
 
 #logo  {
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 900;
   padding: 5px;
   letter-spacing: 2px;
@@ -27,7 +27,7 @@ a.heeby  {
     display: none;
   }
   .navbarpretty  {
-    grid-template-columns:4 repeat(4, 1fr);
+    grid-template-columns: 4 repeat(4, 1fr);
   }
 }
 
@@ -39,6 +39,6 @@ a.navbarr  {
   padding-top: 11px;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 20px;
+  font-size: 24px;
   border-left: 3px solid white;
 }
